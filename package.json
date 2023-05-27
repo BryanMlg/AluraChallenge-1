@@ -7,11 +7,13 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "scripts": {},
+  "scripts": {
+    "dev": "webpack --config webpack.config.dev.js",
+    "start": "webpack serve --config webpack.config.dev.js"
+  },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "devDependencies": {
@@ -20,6 +22,16 @@
     "@babel/preset-env": "^7.22.2",
     "@babel/preset-react": "^7.22.0",
     "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.4",
+    "eslint": "^8.41.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.6",
     "webpack": "^5.84.1",
     "webpack-cli": "^5.1.1",
     "webpack-dev-server": "^4.15.0"
