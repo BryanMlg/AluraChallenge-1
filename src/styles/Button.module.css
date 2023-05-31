@@ -1,0 +1,25 @@
+@import '@styles/global.css';
+
+button {
+    width: 300px;
+    height: 67px;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.ButtonDes {
+    background-color: #D8DFE8;
+    color: var(--main-bg-color);
+    border: solid 1px var(--main-bg-color);
+}
+
+.ButtonCopy {
+    background-color: white;
+    color: var(--main-bg-color);
+    border: solid 1px var(--main-bg-color);
+}

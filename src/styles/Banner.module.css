@@ -1,0 +1,47 @@
+@import "@styles/global.css";
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.Banner {
+    background-color: #E5E5E5;
+    width: 100%;
+}
+
+.Banner__content {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.Banner__content--Pais {
+    width: 30px;
+    height: 30px;
+}
+
+@media (min-width: 600px) {
+    .Banner__content h4 {
+        font-size: 1.3rem;
+    }
+
+    .Banner__content {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: px;
+    }
+
+    .Banner__content--Logo {
+        width: 25px;
+    }
+
+    .Banner__content--Pais {
+        width: 45px;
+        height: 45px;
+    }
+}
