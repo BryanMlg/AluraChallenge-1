@@ -9,7 +9,8 @@
   },
   "scripts": {
     "dev": "webpack --config webpack.config.dev.js",
-    "start": "webpack serve --config webpack.config.dev.js"
+    "start": "webpack serve --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.js"
   },
   "eslintConfig": {
     "extends": [
@@ -23,6 +24,7 @@
     "@babel/preset-react": "^7.22.0",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.4",
+    "css-minimizer-webpack-plugin": "^5.0.0",
     "eslint": "^8.41.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
@@ -32,6 +34,7 @@
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.1",
     "mini-css-extract-plugin": "^2.7.6",
+    "terser-webpack-plugin": "^5.3.9",
     "webpack": "^5.84.1",
     "webpack-cli": "^5.1.1",
     "webpack-dev-server": "^4.15.0"

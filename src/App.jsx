@@ -7,7 +7,7 @@ import Style from '@styles/Layout.module.css';
 import Error from '@assets/Error.svg';
 import convertirTexto from '@utilities/Encriptar';
 import Desencriptar from '@utilities/Desencriptar';
-import Creator from '@assets/Creator.png';
+import Creator from '@assets/LogoB.png';
 import AddIcon from "@assets/AddIcon.svg";
 function App() {
   const [texto, setTexto] = useState('');
