@@ -1,4 +1,4 @@
-# Getting Started with React App
+
 <h1>Encryptor</h1>
 <br>
 <div align="center">
