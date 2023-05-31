@@ -10,6 +10,7 @@
 <br>
 <img src="https://github.com/BryanMlg/AluraChallenge-1/assets/49600985/ddad1c46-a192-421f-a1c0-3277553d784f" alt="img">
 [LINK] https://alurachallege-bryanguerra.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
