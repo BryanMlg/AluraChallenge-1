@@ -1,22 +1,22 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'standard'
-  ],
-  overrides: [
-  ],
+  extends: ['plugin:react/recommended', 'standard', 'eslint:recommended'],
+  overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
-  plugins: [
-    'react'
-  ],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
+  plugins: ['react'],
   rules: {
-    'comma-dangle': false
-  }
-}
+    'comma-dangle': 0,
+    semi: 0,
+  },
+};

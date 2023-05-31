@@ -8,8 +8,9 @@ import Error from '@assets/Error.svg';
 import convertirTexto from '@utilities/Encriptar';
 import Desencriptar from '@utilities/Desencriptar';
 import Creator from '@assets/LogoB.png';
-import AddIcon from "@assets/AddIcon.svg";
-function App() {
+import AddIcon from '@assets/AddIcon.svg';
+
+function App () {
   const [texto, setTexto] = useState('');
   const [textoEncriptado, setTextoEncriptado] = useState('');
 
@@ -34,9 +35,17 @@ function App() {
   return (
     <div className={Style.Fix}>
       <div className={Style.Container__Logo}>
-        <a href="https://www.aluracursos.com/"><img src={Logo} alt='Logo' /></a>
-        <img src={AddIcon} alt="+" />
-        <a href="https://github.com/BryanMlg"><img src={Creator} alt='Logo' className={Style["Banner__content--Logo"]}/></a>
+        <a href='https://www.aluracursos.com/'>
+          <img src={Logo} alt='Logo' />
+        </a>
+        <img src={AddIcon} alt='+' />
+        <a href='https://github.com/BryanMlg'>
+          <img
+            src={Creator}
+            alt='Logo'
+            className={Style['Banner__content--Logo']}
+          />
+        </a>
       </div>
       <div className={Style.Container}>
         <div className={Style.Container__left}>
@@ -60,7 +69,7 @@ function App() {
         <div className={Style.Container__right}>
           <TextArea value={textoEncriptado} readOnly />
           <div className={Style.ContainerRight__buttons}>
-            <Button Description={'Copiar'} onClickC={handleCopy}/>
+            <Button Description={'Copiar'} onClickC={handleCopy} />
           </div>
         </div>
       </div>
