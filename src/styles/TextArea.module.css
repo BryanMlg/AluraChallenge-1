@@ -13,6 +13,11 @@
     display: flex;
     justify-content: center;
 }
+
+.Container__textarea::placeholder{
+    color: var(--main-bg-color);
+}
+
 .Container__textarea2 {
     width: 100%;
     height: 288px;

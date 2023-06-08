@@ -9,7 +9,8 @@ export default function TextArea ({ Description, value, onChange, onClick }) {
           <textarea
             className={Style.Container__textarea}
             name='Encriptacion'
-            defaultValue={value || 'Ingrese un texto Aquí'}
+            defaultValue={value}
+            placeholder='Ingrese un texto Aquí'
             onChange={onChange}
             onClick={onClick}
           />
